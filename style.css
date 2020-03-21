@@ -66,22 +66,26 @@ body {
 .yes, .no{
     width: 150px;
     height: 100px;
-    background-color: red;
-    border: 2px solid white;
+    background-color: white;
+    border: 2px solid grey;
     font-family: Helvetica;
     border-radius: 30px;
-    color: white;
     text-align: center;
     
 }
 
 .yes h3, .no h3{
     padding-top: 20px;
+    color: black;
 
 }
 
-.yes:hover, .no:hover{
-    background-color: blue;
+.yes:hover {
+    background-color: green;
+}
+
+.no:hover{
+    background-color: red;
 }
 
 .gambar{
@@ -95,7 +99,7 @@ a:link{text-decoration: none;}
 
 /* index css */
 
-/* index navbar */
+/* main navbar */
 .navigasi{
     position: fixed;
     width: 100%;
@@ -137,6 +141,14 @@ a:link{text-decoration: none;}
 
 /* background */
 
+.textshadow{
+    text-shadow: 1px 1px 1px black;
+}
+
+.vapeinfo{
+    font-size: 20px;
+    font-weight: lighter;
+}
 .gmbbn{
     position: fixed;
     width: 100%;
@@ -150,16 +162,104 @@ a:link{text-decoration: none;}
     height: 100%;
     background-color: rgba(44, 53, 57, 0.6);
     position: relative;
-    top: 75px;
+    top: 200px;
     margin: 0 auto;
+    padding: 20px 25px;
+}
+
+.judulkonten{ 
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
+}
+
+.judulkonten p{
+    text-align: justify;
+}
+
+.judulisikonten{
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
 }
 
 .konten{
     display: grid;
     position: relative;
-    grid-template-columns: 1fr 1fr ;
-    column-gap: 1px;
-    margin-left: 25px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    margin-bottom: 20px;
+    /* margin-left: 25px; */
+}
+
+.isi{
+    width: 80%;
+    height: 100%;
+    background-color: grey;
+    border: 2px solid white;
+    font-family: Helvetica;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 5px 5px 1px black;
+    
+}
+
+.gambarmod{
+    width: 125px;
+    height: 100px;
+}
+
+
+
+/* about */
+.ketabout{
+    width: 80%;
+    height: 100%;
+    background-color: rgba(203, 241, 245, 0.6);
+    position: relative;
+    top: 75px;
+    margin: 0 auto;
+}
+
+.ket2{
+    display: flex;
+    padding: 20px 60px;
+}
+
+.info{
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logocp img{
+    margin-top: 20px;
+    padding: 5px 0 0 200px;
+}
+
+.visi{
+    display: flex;
+    padding: 100px 30px 0 750px;
+    text-align: center;
+   
+}
+
+.info p{
+        text-align: justify;
+
+}
+
+.vcompany p {
+    text-align: justify;
+}
+
+.misilist{
+    text-align: justify;
 
 }
 

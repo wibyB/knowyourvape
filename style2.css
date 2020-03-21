@@ -42,7 +42,6 @@ body{
 .group  {
     float: right;
 }
-
 .gmbrbg {
     width: 100%;
     height: 900000px;
@@ -182,3 +181,11 @@ body{
     display: inline-block;
     margin-left: 5px;
 } 
+
+a:link{
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
