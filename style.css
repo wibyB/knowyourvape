@@ -195,7 +195,7 @@ a:link{text-decoration: none;}
 
 .isi{
     width: 80%;
-    height: 100%;
+    height: 450px;
     background-color: grey;
     border: 2px solid white;
     font-family: Helvetica;
@@ -205,12 +205,19 @@ a:link{text-decoration: none;}
     margin: 0 auto;
     padding: 10px;
     box-shadow: 5px 5px 1px black;
-    
 }
 
-.gambarmod{
-    width: 125px;
-    height: 100px;
+.text{
+    height: 184px;
+    width: 100%;
+    overflow: auto;
+    text-align: justify;
+}
+
+.gambarisi{
+    width: 100%;
+    height: 30%;
+    border-radius: 25px;
 }
 
 
@@ -263,6 +270,9 @@ a:link{text-decoration: none;}
 
 }
 
+.text::-webkit-scrollbar{
+display: none;
+}
 a:link{
     text-decoration: none;
 }
