@@ -1,7 +1,6 @@
 /* intro */
 body {
     margin: 0;
-    height: 100%;
     background-color: black;
 }
 
@@ -93,6 +92,11 @@ body {
     height: 100%;
 }
 
+.fv{
+position: static;
+color: white;
+}
+
 a:link{text-decoration: none;}
 
 /*  */
@@ -109,7 +113,7 @@ a:link{text-decoration: none;}
     z-index: 5;
 }
 
-.LOGO, .home, .about, .package, .contact, .login {
+.LOGO, .home, .about{
     display: inline-block;
     height: 50px;
     padding: 20px 15px; 
@@ -131,7 +135,7 @@ a:link{text-decoration: none;}
 
 } 
 
-.home:hover, .about:hover, .package:hover, .contact:hover, .login:hover {
+.home:hover, .about:hover{
     background-color: #0f4c75;
 }
 
@@ -157,6 +161,28 @@ a:link{text-decoration: none;}
 }
 
 /* isi */
+#header{
+    background-image: url(img/smok.png);
+    background-position: center;
+    height: 500px;
+    width: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 50px ;
+    top: 125px;
+}
+#header h1 {
+    position: relative;
+    top: 80%;
+    width: 30%;
+    left: 10%;
+    color: rgb(242, 162, 3);
+    font-size: 55px;
+    letter-spacing: 10;
+}
+
 .ket{
     width: 80%;
     height: 100%;
@@ -226,10 +252,15 @@ a:link{text-decoration: none;}
 .ketabout{
     width: 80%;
     height: 100%;
-    background-color: rgba(203, 241, 245, 0.6);
+    background-color: rgba(44, 53, 57, 0.6);
     position: relative;
     top: 75px;
     margin: 0 auto;
+}
+
+.fox2{
+    height: 250px;
+    width: 200px;
 }
 
 .ket2{
@@ -242,6 +273,7 @@ a:link{text-decoration: none;}
     padding: 5px;
     text-align: center;
     font-weight: bold;
+    color: white;
 }
 
 .logocp img{
@@ -253,6 +285,7 @@ a:link{text-decoration: none;}
     display: flex;
     padding: 100px 30px 0 750px;
     text-align: center;
+    color: white;
    
 }
 
@@ -273,6 +306,15 @@ a:link{text-decoration: none;}
 .text::-webkit-scrollbar{
 display: none;
 }
+
+.foot{
+    top: 300px;
+    position: relative;
+    background-color: #2C3539;
+    height: 50px;
+    width: 100%;
+}
+
 a:link{
     text-decoration: none;
 }
